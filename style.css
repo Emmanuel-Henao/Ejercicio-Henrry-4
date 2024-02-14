@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color:rgb(104, 104, 142);
+    color:white;
+    margin: 20px;
+}
+#titulo{
+    font-size: 4em;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: black;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+}
+#contenedor{
+    border: solid black;
+    border-radius: 4px;
+    background-color:white;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+width: 60vw;
+height: 18vw;
+
+}
+.logo{
+width: 7em;
+height: 7em;
+border: solid 3px black;
+margin: 2;
+}
+.item{
+margin:4px 2px 1px 2px;
+}
+#naranja:hover{
+    background-color: orangered;
+}
+#azul:hover{
+    background-color: blue;
+}
+#amarillo:hover{
+    background-color: yellow;
+}
+.fondo{
+background-color:  white;
+}
+#lore{
+    color:rgb(104, 104, 142);
+    margin: 10px;
+}
